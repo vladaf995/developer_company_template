@@ -1,0 +1,154 @@
+.digital-design {
+  background-image: url("/img/hero/hero-bg.png");
+  position: relative;
+  height: 100vh;
+
+  &__image-1 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+    > img {
+      width: 97px;
+    }
+  }
+
+  &__image-2 {
+    position: absolute;
+    top: 3%;
+    left: 60%;
+    rotate: -90deg;
+
+    > img {
+      width: 80px;
+      height: 140px;
+    }
+  }
+
+  &__image-3 {
+    position: absolute;
+    top: 22%;
+    left: 45%;
+
+    > img {
+      width: 180px;
+    }
+  }
+
+  &__card {
+    background-color: $color-white;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: 70%;
+    padding: 30px 20px 60px;
+    border-radius: 20px;
+
+    > h2 {
+      color: $color-purple;
+    }
+
+    > p {
+      line-height: 30px;
+      padding: 20px 0;
+    }
+
+    > button {
+      background-color: $color-purple;
+      color: $color-white;
+      font-weight: bold;
+      padding: 25px 50px;
+      border: unset;
+      outline: none;
+      border-radius: 30px;
+    }
+  }
+
+  &__image-4 {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+
+    > img {
+      width: 150px;
+    }
+  }
+
+  &__image-5 {
+    position: absolute;
+    top: 88%;
+    left: 55%;
+
+    > img {
+      width: 130px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .digital-design {
+    &__image-1 {
+      left: 10%;
+
+      > img {
+        width: 120px;
+      }
+    }
+
+    &__image-2 {
+      top: 20%;
+      left: 55%;
+
+      > img {
+        width: 120px;
+        height: 220px;
+      }
+    }
+
+    &__image-3 {
+      top: 15%;
+      left: 35%;
+
+      > img {
+        width: 230px;
+      }
+    }
+
+    &__card {
+      top: 30%;
+      left: 10%;
+      width: 30%;
+      padding: 100px 30px;
+
+      > h2 {
+        font-size: 48px;
+      }
+
+      > p {
+        font-size: 20px;
+      }
+
+      > button {
+        font-size: 16px;
+      }
+    }
+
+    &__image-4 {
+      top: 70%;
+      left: 25%;
+
+      > img {
+        width: 220px;
+      }
+    }
+
+    &__image-5 {
+      top: 60%;
+      left: 50%;
+
+      > img {
+        width: 300px;
+      }
+    }
+  }
+}

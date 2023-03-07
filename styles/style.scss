@@ -1,0 +1,19 @@
+@import "config";
+@import "header";
+@import "hero";
+@import "about-us";
+@import "services";
+@import "services-card";
+@import "digital-design";
+@import "what-we-do";
+@import "we-are-a-team";
+@import "footer";
+@import "contact";
+@import "animation";
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap%27);";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
