@@ -1,0 +1,203 @@
+//hero-section------------
+@keyframes bottomToTop {
+  from {
+    bottom: -200px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+
+.bottomToTop {
+  animation: bottomToTop 2s ease;
+}
+
+@keyframes moveLeftHeroSection {
+  from {
+    left: -200px;
+    scale: 0.1;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.moveLeftHeroSection {
+  animation: moveLeftHeroSection 1s ease;
+}
+
+@keyframes scaleHeroSection {
+  from {
+    opacity: 0;
+    scale: 0.1;
+  }
+}
+
+.scaleHeroSection {
+  animation: scaleHeroSection 2s ease;
+}
+
+@keyframes moveRightHeroSection {
+  from {
+    right: -200px;
+    scale: 0.1;
+  }
+  to {
+    right: 0;
+  }
+}
+
+.moveRightHeroSection {
+  animation: moveRightHeroSection 1s ease;
+}
+
+@keyframes rotate {
+  from {
+    scale: 0.1;
+    rotate: 180deg;
+  }
+}
+
+.rotate {
+  animation: rotate 1s ease;
+}
+
+//about-us section--------------------
+
+@keyframes moveLeft {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.moveLeft {
+  animation: moveLeft 1s ease;
+}
+
+@keyframes moveRight {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+.moveRight {
+  animation: moveRight 1s ease;
+}
+
+@keyframes scale {
+  from {
+    opacity: 0;
+    scale: 1.5;
+  }
+}
+
+.scale {
+  animation: scale 1s ease;
+}
+
+// services secton -------------------
+@keyframes moveLeftServices {
+  from {
+    left: -400px;
+    opacity: 0;
+    scale: 0.1;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.moveLeftServices {
+  animation: moveLeftServices 2s ease;
+}
+
+@keyframes moveLeftAbsolute {
+  from {
+    left: -200px;
+  }
+}
+
+.moveLeftAbsolute {
+  animation: moveLeftAbsolute 1s ease;
+}
+
+@keyframes moveRightAbsolute {
+  from {
+    left: 200px;
+  }
+}
+
+.moveRightAbsolute {
+  animation: moveRightAbsolute 1s ease;
+}
+
+@keyframes moveLeftWhatWiDo {
+  from {
+    left: -200px;
+    scale: 1.5;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.moveLeftWhatWiDo {
+  animation: moveLeftWhatWiDo 1s ease;
+}
+
+@keyframes rotateWhatWeDo {
+  from {
+    left: -200px;
+    rotate: 180deg;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.rotateWhatWeDo {
+  animation: rotateWhatWeDo 1s ease;
+}
+
+@keyframes rotateLeft {
+  from {
+    opacity: 0;
+    rotate: 50deg;
+  }
+}
+
+.rotateLeft {
+  animation: rotateLeft 1.5s ease;
+}
+
+@keyframes rotateRight {
+  from {
+    opacity: 0;
+    left: 400px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.rotateRight {
+  animation: rotateRight 1.5s ease;
+}
+
+@keyframes scaleContact {
+  from {
+    opacity: 0;
+    scale: 0.1;
+  }
+}
+
+.scaleContact {
+  animation: scaleContact 1s ease;
+}

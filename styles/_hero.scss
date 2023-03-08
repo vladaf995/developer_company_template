@@ -1,0 +1,125 @@
+@import "config";
+
+.hero {
+  background-image: url("/img/hero/hero-bg.png");
+  width: 100%;
+
+  &__first-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 40px 0;
+
+    > img {
+      position: relative;
+      width: 120px;
+      height: fit-content;
+    }
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -10%;
+
+    > h1 {
+      color: $color-white;
+      font-weight: bold;
+      font-size: 30px;
+      padding-bottom: 20px;
+    }
+
+    &__menu-item {
+      background-image: linear-gradient(#b47aec, #702bb1);
+      padding: 30px 15px;
+      width: 80%;
+      border-radius: 50px;
+      text-align: center;
+
+      ul {
+        padding: 0;
+      }
+
+      li {
+        color: $color-white;
+        border-right: 1px solid;
+        display: inline;
+        list-style: none;
+        font-size: 18px;
+        padding: 0 10px;
+        cursor: pointer;
+      }
+
+      :first-child {
+        padding-left: 0;
+      }
+
+      :last-child {
+        border-right: unset;
+      }
+    }
+
+    > p {
+      color: $color-white;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 20px 0;
+      position: relative;
+    }
+  }
+
+  &__last-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 40px;
+
+    > img {
+      width: 150px;
+      position: relative;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    &__first-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 60px 400px 0;
+
+      > img {
+        width: 150px;
+        height: fit-content;
+      }
+    }
+
+    &__box {
+      top: -100px;
+
+      > h1 {
+        font-size: 96px;
+        max-width: 700px;
+        text-align: center;
+      }
+
+      &__menu-item {
+        width: 50%;
+
+        li {
+          font-size: 22px;
+        }
+      }
+
+      > p {
+        font-size: 26px;
+      }
+    }
+
+    &__last-item {
+      position: relative;
+      top: -100px;
+      padding: 0 400px;
+    }
+  }
+}
