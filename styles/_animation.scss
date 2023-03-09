@@ -12,6 +12,19 @@
   animation: bottomToTop 2s ease;
 }
 
+@keyframes topToBottom {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+.topToBottom {
+  animation: topToBottom 2s ease;
+}
+
 @keyframes moveLeftHeroSection {
   from {
     left: -200px;
@@ -129,7 +142,7 @@
 
 @keyframes moveRightAbsolute {
   from {
-    left: 200px;
+    left: 70%;
   }
 }
 

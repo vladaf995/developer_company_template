@@ -179,6 +179,7 @@
 }
 .services {
   padding: 50px 20px;
+  overflow: hidden;
 }
 .services__circles {
   display: flex;
@@ -769,6 +770,18 @@ footer {
   animation: bottomToTop 2s ease;
 }
 
+@keyframes topToBottom {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0;
+  }
+}
+.topToBottom {
+  animation: topToBottom 2s ease;
+}
+
 @keyframes moveLeftHeroSection {
   from {
     left: -200px;
@@ -874,7 +887,7 @@ footer {
 
 @keyframes moveRightAbsolute {
   from {
-    left: 200px;
+    left: 70%;
   }
 }
 .moveRightAbsolute {
